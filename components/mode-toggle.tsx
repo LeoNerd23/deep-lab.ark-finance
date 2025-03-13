@@ -15,7 +15,7 @@ import { useEffect, useState } from "react"
 
 export function ModeToggle() {
   const [mounted, setMounted] = useState(false)
-  const { setTheme, theme } = useTheme()
+  const { setTheme } = useTheme()
 
   useEffect(() => {
     setMounted(true)
