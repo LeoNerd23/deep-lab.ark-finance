@@ -18,7 +18,7 @@ export default function LoginPage() {
         <GeometricBackgroundLogin />
       </div>
 
-      <div className="mt-8 block h-48 md:hidden">
+      <div className="mt-8 block md:hidden">
         <GeometricBackgroundLogin isMobile={true} />
       </div>
 

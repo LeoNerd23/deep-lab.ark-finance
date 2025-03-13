@@ -15,7 +15,7 @@ export default function LoginPage() {
   return (
     <div className="flex min-h-screen flex-col md:flex-row">
       {/* Left side - Login Form */}
-      <div className="flex w-full flex-col justify-center px-4 py-12 md:w-1/2 md:px-8 lg:px-12 xl:px-20">
+      <div className="flex w-full mt-8 flex-col justify-center px-4 py-12 md:w-1/2 md:px-8 lg:px-12 xl:px-20">
         <div className="absolute top-4 left-4">
           <ModeToggle />
         </div>
@@ -129,7 +129,7 @@ export default function LoginPage() {
         <GeometricBackgroundRegister />
       </div>
 
-      <div className="mt-8 block h-48 md:hidden">
+      <div className="mt-8 block md:hidden">
         <GeometricBackgroundRegister isMobile={true} />
       </div>
     </div>
