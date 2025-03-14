@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Arc Finance",
+  title: "Ark Finance",
   description: "Controle financeiro simplificado",
 }
 
